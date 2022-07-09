@@ -2,4 +2,4 @@
 
 ---
 
-Assingment-1(https://github.com/bugsripper/cppBootcamp/tree/main/assingment_1)
+[Assingment-1](https://github.com/bugsripper/cppBootcamp/tree/main/assingment_1) | Basics of Input and Output
