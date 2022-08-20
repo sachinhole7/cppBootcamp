@@ -11,17 +11,17 @@ int main()
 
     if (year % 400 == 0)
     {
-        printf("%d is leap Year.\n");
+        printf("%d is leap Year.\n", year);
     }
     else
     {
         if (year % 4 == 0 && year % 100 != 0)
         {
-            printf("%d is leap Year.\n");
+            printf("%d is leap Year.\n", year);
         }
         else
         {
-            printf("%d is Not leap Year.\n");
+            printf("%d is Not leap Year.\n", year);
         }
     }
 

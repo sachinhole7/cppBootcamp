@@ -11,11 +11,11 @@ int main()
 
     if (num < 999 && num > 99)
     {
-        printf("%d is Three Digit Number.\n");
+        printf("%d is Three Digit Number.\n", num);
     }
     else
     {
-        printf("%d is Not a Three Digit Number.\n");
+        printf("%d is Not a Three Digit Number.\n", num);
     }
 
     return 0;

@@ -4,12 +4,15 @@
 int main()
 {
 
-    int num;
+    int num, x, y;
 
     printf("Enter a Number: ");
     scanf("%d", &num);
 
-    if (num & 1 == 1)
+    x = num / 2;
+    y = num - x;
+
+    if (x != y)
     {
         printf("%d is Odd Number.\n", num);
     }

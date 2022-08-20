@@ -6,16 +6,18 @@
 int main()
 {
 
-    int num, digit, tmp;
+    int num, digit;
 
     printf("Enter a Number: ");
     scanf("%d", &num);
 
     printf("Enter a single Digit: ");
-    scanf("%d", digit);
+    scanf("%d", &digit);
+	
+    num = num * 10;
+    num = num + digit;
 
-    tmp = num % 10;
-    tmp =
+    printf("rsulting number is %d\n", num);
 
-        return 0;
+    return 0;
 }
